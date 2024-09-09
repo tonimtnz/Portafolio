@@ -3,7 +3,7 @@ export function Header(){
     return(
         <header className="port-header">
             <div className="header-left">
-                <img src="src\assets\flowbacano.png" width={"120px"} className=""/>
+                <img src="assets/flowbacano.png" width={"120px"} className=""/>
                 <div className="hdr-name-job">
                 <h2>Antonio Martínez Lluesma</h2> 
                 <h4>Junior Full-Stack Web Developer</h4>

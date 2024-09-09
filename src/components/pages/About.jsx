@@ -1,15 +1,15 @@
-import { Css } from "../../assets/Css";
-import { Html5 } from "../../assets/Html5";
-import { Js } from "../../assets/Js";
-import { VS } from "../../assets/VS";
-import { Vs2 } from "../../assets/Vs2"
-import { Post } from "../../assets/Post"
-import { ReactLogo } from "../../assets/ReactLogo";
-import { Vite } from "../../assets/Vite";
-import { Next } from "../../assets/Next";
-import { Angular } from "../../assets/Angular";
-import { Mongo } from "../../assets/Mongo";
-import { Java } from "../../assets/Java";
+import { Css } from "../../../public/assets/Css";
+import { Html5 } from "../../../public/assets/Html5";
+import { Js } from "../../../public/assets/Js";
+import { VS } from "../../../public/assets/VS";
+import { Vs2 } from "../../../public/assets/Vs2"
+import { Post } from "../../../public/assets/Post"
+import { ReactLogo } from "../../../public/assets/ReactLogo";
+import { Vite } from "../../../public/assets/Vite";
+import { Next } from "../../../public/assets/Next";
+import { Angular } from "../../../public/assets/Angular";
+import { Mongo } from "../../../public/assets/Mongo";
+import { Java } from "../../../public/assets/Java";
 
 
 export function About (){
