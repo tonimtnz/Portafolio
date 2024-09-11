@@ -3,7 +3,7 @@ export function Proyects({ object }) {
     <section className="port-main-container">
       <div className="proyect-main-container">
         {object.map((item, index) => (
-          <div id={index} className="big-pryct-info-container">
+          <div key={index} className="big-pryct-info-container">
             <div className="pryct-info-container">
               <h2 id="lit-tittle">{item.name}</h2>
               <p>{item.info}</p>
@@ -17,7 +17,7 @@ export function Proyects({ object }) {
                   )}
                   <div className="hide-pics">
                     {item.pics.map((item, index) => (
-                      <img id={index} src={item} alt="proyect-pic" />
+                      <img key={index} src={item} alt="proyect-pic" />
                     ))}
                   </div>
               </div>
