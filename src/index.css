@@ -3,17 +3,16 @@
 @tailwind utilities;
 
 :root {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   max-width: fit-content;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: var(--rich-black);
-  --imperial-blue: #0000008c;
+  --imperial-blue: #00000052;
   --magnolia: #fde1dd;
-  --emphasis: #ffd231;
+  --emphasis: #ff8538;
+  --emphasis-alt: #3ccffb;
   --rich-black: #14191d;
   --cards-background: #9adce921;
 
@@ -35,9 +34,21 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  align-self: center;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+.port-container{
+  align-self: center;
+  background-image: radial-gradient(farthest-corner at 10px 10px,
+  #ff8a42 0%,
+  #1b1b1b  15%,
+   #1b1b1b 50%,
+   #106078 75%,
+   #3ccffb 85%,
+   #106078 95%
+   );
 }
 
 h1 {
@@ -59,8 +70,8 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: var(--imperial-blue);
   color: var(--magnolia);
+  background-color: #130d0a00;
   cursor: pointer;
   transition: all ease-in-out 0.25s;
   border-color: var(--magnolia);
