@@ -1,3 +1,6 @@
+import { Git } from "../../../public/assets/git";
+import { Linked } from "../../../public/assets/lnkin";
+
 export function Header(){
 
     return(
@@ -16,8 +19,8 @@ export function Header(){
             <div className="header-right">
                 <h4>Redes</h4>
                 <div className="hdr-buttons-cont">
-                <a href="https://www.linkedin.com/in/antonio-martinez-developer/" target="_blank"><button>Linkedin</button></a>
-                <a href="https://github.com/tonimtnz" target="_blank"><button>Github</button></a>
+                <a href="https://www.linkedin.com/in/antonio-martinez-developer/" target="_blank" className="social"><Linked/></a>
+                <a href="https://github.com/tonimtnz" target="_blank" className="social"><Git/></a>
                 </div>
             </div>
         </header>
