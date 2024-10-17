@@ -7,7 +7,7 @@ export function Proyects({ object }) {
             <div className="pryct-info-container">
               <h2 id="lit-tittle">{item.name}</h2>
               <p>{item.info}</p>
-              <div className="pics-container">
+              <section className="pics-container">
                 {item.href ? (
                   <a href={item.href} target="_blank">
                     Visitar sitio
@@ -20,7 +20,7 @@ export function Proyects({ object }) {
                       <img key={index} src={item} alt="proyect-pic" />
                     ))}
                   </div>
-              </div>
+              </section>
             </div>
           </div>
         ))}

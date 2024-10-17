@@ -242,36 +242,40 @@
 }
 
 .pics-container{
-  padding: 0 1rem;
-  max-width: 100%;
+  width: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: column-reverse;
-  height: fit-content;
-  box-sizing: border-box;
-  justify-content: center;
-  gap: 3%;
   align-items: center;
 
   img{
-    width: auto;
-    height: 300px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px hsla(27, 97%, 58%, 0.858);
-    cursor: pointer;
+    width: 0px;
+    flex-grow: 1;
+    opacity: .6;
+    transition: all ease-in-out .75s;
     object-fit: cover;
-    aspect-ratio: 16/9;
   }
 }
+.pics-container img:hover{
+  cursor: crosshair;
+  opacity: 1;
+  width:75%;
+  filter: contrast(120%);
+  object-fit: contain;
+  margin: 1px;
+  background-image: radial-gradient(farthest-corner at 10px 10px,
+  #ff8a4267 0%,
+   #10607867 55%,
+   #3ccffb67 85%
+   );
+}
 .hide-pics{
-  box-sizing: border-box;
-  width: 100%;
-  border-radius: 50px;
+  box-shadow: 0 0 20px hsla(0, 0%, 99%, 0.858);
+  width: 90vw;
+  height: 500px;
   display: flex;
-  flex-direction: row;
-  gap: 5%;
-  padding: 1rem;
-  overflow: scroll;
-  overflow-y: hidden;
+  border-radius: 20px;
+  overflow: hidden;
 }
 @-moz-document url-prefix(){
   .hide-pics{
