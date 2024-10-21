@@ -6,7 +6,8 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  max-width: fit-content;
+  min-width: fit-content;
+  max-width: 100vw;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   --imperial-blue: #00000052;
@@ -15,7 +16,14 @@
   --emphasis-alt: #3ccffb;
   --rich-black: #14191d;
   --cards-background: #9adce921;
-
+  background-image: radial-gradient(farthest-corner at 10px 10px,
+  #ff8a42 0%,
+  #1b1b1b  15%,
+   #1b1b1b 50%,
+   #106078 75%,
+   #3ccffb 85%,
+   #106078 95%
+   );
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -41,14 +49,6 @@ body {
 }
 .port-container{
   align-self: center;
-  background-image: radial-gradient(farthest-corner at 10px 10px,
-  #ff8a42 0%,
-  #1b1b1b  15%,
-   #1b1b1b 50%,
-   #106078 75%,
-   #3ccffb 85%,
-   #106078 95%
-   );
 }
 
 h1 {
@@ -73,7 +73,7 @@ button {
   color: var(--magnolia);
   background-color: #130d0a00;
   cursor: pointer;
-  transition: all ease-in-out 0.25s;
+  transition: all ease-in-out 0.5s;
   border-color: var(--magnolia);
 }
 button:hover {
