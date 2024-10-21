@@ -376,17 +376,18 @@
   .hdr-name-job{
     gap: 0rem;
     flex-direction: row;
-
+    align-items: center;
     h2{
       padding: 0;
     }
   }
   .hdr-contact{
     flex-direction: row;
+    align-items: center;
   }
   .hdr-buttons-cont{
     width: 100%;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     display: flex;
     justify-content: space-between;
   }
