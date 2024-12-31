@@ -9,7 +9,7 @@ export function Header(){
                 <a href="/"><img src="assets/flowbacano.png" alt="mi foto" aria-label="Back to home" width={"120px"} className=""/></a>
                 <div className="hdr-name-job">
                 <h2>Antonio Martínez Lluesma</h2> 
-                <h4>Junior Full-Stack Web Developer</h4>
+                <h3>Junior Full-Stack Web Developer</h3>
                 </div>
                 <div className="hdr-contact">
                     <h4>Número: <span>+34 692594647</span></h4>
