@@ -18,7 +18,7 @@ export function About (){
         <section className="port-main-container">
             <div className="content-cont">
                 <div className="about-me-cont">
-                    <h2 id="lit-tittle">Sobre Mi:</h2>
+                    <h2 id="lit-tittle">SOBRE MI:</h2>
                     <p>Durante este último año he descubierto en la
                         programación un mundo que me apasiona. Empecé ese
                         camino de forma autodidacta hasta dar con un Bootcamp
