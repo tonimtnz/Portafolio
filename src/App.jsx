@@ -8,7 +8,6 @@ function App() {
   return (
     <main className="port-container">
       <About/>
-      <Proyects object={ProyectsInfo}/>
     </main>
   )
 }

@@ -9,6 +9,7 @@
   min-width: fit-content;
   overflow: auto;
   overflow-x: hidden;
+  min-height: 100vh;
   max-width: 100vw;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
