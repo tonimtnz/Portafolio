@@ -417,6 +417,9 @@
     top: 90%;
     width: 100%;
   }
+  .nav-father:hover{
+    display: none;
+  }
   .nav-father{
     position: fixed;
     background: none;
@@ -440,11 +443,6 @@
       }
     }
     .nav-arrow{
-      display: none;
-    }
-  }
-  .nav-father:hover{
-    .nav-cont{
       display: none;
     }
   }
