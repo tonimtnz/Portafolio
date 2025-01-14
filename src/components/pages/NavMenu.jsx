@@ -17,11 +17,11 @@ export function NavMenu(){
                     <a href="/projects">Mis Proyectos</a>
                     <a href="/me">Sobre mi</a>
                 </div>
-                <div className="nav-icons">
-                    <a href="/"><Home></Home></a>
-                    <a href="/projects"><Folder></Folder></a>
-                    <a href="/me"><MeIcon></MeIcon></a>
-                </div>
+            </div>
+            <div className="nav-icons">
+                <a href="/"><Home></Home></a>
+                <a href="/projects"><Folder></Folder></a>
+                <a href="/me"><MeIcon></MeIcon></a>
             </div>
         </section>
     )

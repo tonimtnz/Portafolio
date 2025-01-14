@@ -38,9 +38,9 @@
     transform: translateX(-100%);
     align-self: center;
   }
-  .nav-icons{
-    display: none;
-  }
+}
+.nav-icons{
+  display: none;
 }
 .nav-father:hover{
   height: fit-content;
@@ -416,34 +416,24 @@
   .nav-menu{
     top: 90%;
     width: 100%;
-  }
-  .nav-father:hover{
-    display: none;
+    align-items: center;
   }
   .nav-father{
-    position: fixed;
-    background: none;
-    margin-bottom: 1rem;
-    width: 100%;
-    justify-content: center;
-    
-    .nav-icons{
-      width: 80%;
-      box-sizing: border-box;
-      height: fit-content;
-      background-color: var(--rich-black);
-      border-radius: 20px;
-      border: 2px solid var(--emphasis);
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      padding: .5rem 3rem 0rem 3rem;
-      a{
-        color: var(--emphasis);
-      }
-    }
-    .nav-arrow{
-      display: none;
+    display: none;
+  }
+  .nav-icons{
+    width: 80%;
+    box-sizing: border-box;
+    height: fit-content;
+    background-color: var(--rich-black);
+    border-radius: 20px;
+    border: 2px solid var(--emphasis);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .5rem 3rem 0rem 3rem;
+    a{
+      color: var(--emphasis);
     }
   }
   .port-header{
