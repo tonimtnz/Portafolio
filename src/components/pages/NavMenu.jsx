@@ -15,7 +15,7 @@ export function NavMenu(){
                 <div className="nav-cont">
                     <a href="/">Home</a>
                     <a href="/projects">Mis Proyectos</a>
-                    <a href="/me">Sobre mi</a>
+                    <a href="/me">+ Sobre mi</a>
                 </div>
             </div>
             <div className="nav-icons">

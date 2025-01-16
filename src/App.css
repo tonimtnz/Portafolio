@@ -20,32 +20,33 @@
 .nav-father{
   box-sizing: border-box;
   position: relative;
-  height: fit-content;
-  width: fit-content;
-  display: flex;
-  align-items: center;
-  transition: all ease-in-out .3s;
-  
+  height: 50px;
+  width: 50px;
+
   .nav-arrow{
     background-color:var(--rich-black);
     border-radius: 5px;
     height: 50px;
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out .5s;
   }
   .nav-cont{
-    transition: all ease-in-out .3s;
-    display: none;
-    transform: translateX(-100%);
+    transition: all ease-in-out .5s;
+    transform: translate(100%);
     align-self: center;
+    a{
+      color: #ffffff00;
+    }
   }
+
 }
 .nav-icons{
   display: none;
 }
 .nav-father:hover{
   height: fit-content;
+  width: fit-content;
   cursor: pointer;
-  svg{
+  .nav-arrow{
     display: none;
   }
   .nav-cont{
@@ -59,8 +60,12 @@
     gap: 1rem;
     padding: 12px 24px;
     margin-right: 5rem;
+    a{
+      color: var(--magnolia)
+    }
 
     a:hover{
+      color: var(--emphasis);
       transform: scale(1.2);
       transition: all ease-in-out .3s;
     }
@@ -102,6 +107,44 @@
 #lit-tittle{
   font-size: 32px;
   color: var(--emphasis);
+}
+.about-me-page{
+  background-color: var(--imperial-blue);
+
+  .me-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+  }
+}
+.me-info-cont{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2rem;
+  font-size: larger;
+  .me-each-info{
+    width: 100%;
+    height: fit-content;
+    h3{
+      margin: 0;
+    }
+    h4{
+      color: var(--emphasis)
+    }
+    p{
+      color: var(--magnolia);
+      text-align: justify;
+      text-shadow: 0px 0px 5px var(--imperial-blue);
+    }
+  }
+}
+#me-tittle{
+  color: var(--emphasis);
+  margin: 0;
 }
 .form-cont{
   box-sizing: border-box;
@@ -182,9 +225,7 @@
   }
 }
 .port-header{
-  position: static;
   z-index: 9;
-  top: 0;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -489,6 +530,13 @@
       width: 100%;
       text-align: center;
       position: relative;
+    }
+  }
+  .me-info-cont{
+    flex-direction: column;
+    align-items: center;
+    .me-each-info{
+      width: 90%;
     }
   }
   .form-cont{
